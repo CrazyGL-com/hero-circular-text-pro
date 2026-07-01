@@ -3,7 +3,7 @@ name: circular-text-pro
 description: "Three concentric rings of text spinning at independent speeds, with a centred wordmark and accent dots — a fully composed badge."
 metadata:
   author: "@ybouane"
-  version: "0.1.0"
+  version: "0.1.1"
 ---
 
 ## How To Use This Skill
