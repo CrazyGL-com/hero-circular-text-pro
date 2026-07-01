@@ -1,0 +1,177 @@
+{
+	"name": "Circular Text Pro",
+	"slug": "circular-text-pro",
+	"version": 1,
+	"description": "Three concentric rings of text spinning at independent speeds, with a centred wordmark and accent dots \u2014 a fully composed badge.",
+	"dependencies": [],
+	"authorName": "@ybouane",
+	"authorUrl": "https://x.com/ybouane",
+	"tags": [
+		"circular",
+		"badge",
+		"typography"
+	],
+	"category": "Typography",
+	"featured": false,
+	"dateCreated": 1781222400000,
+	"poster": "/images/heroes/circular-text-pro.png",
+	"install": {
+		"package": "@crazygl/hero-circular-text-pro"
+	},
+	"config": {
+		"managedWidth": true,
+		"innerWidth": 1200,
+		"managedHeight": true,
+		"defaultHeight": 720,
+		"styleInheritance": "none",
+		"usesCanvas": false,
+		"usesWebGL": false,
+		"usesThree": false,
+		"pointerTracking": false,
+		"resizeTracking": true,
+		"scrollTracking": false,
+		"supportsImages": false,
+		"supportsTransparency": true,
+		"interactive": false,
+		"supportsFontCustomization": true,
+		"interactivityModes": [
+			"none"
+		],
+		"interactivity": "none"
+	},
+	"customizer": {
+		"sections": [
+			{
+				"label": "Content",
+				"fields": [
+					{
+						"id": "ring1Text",
+						"label": "Ring 1 text",
+						"type": "text",
+						"default": "EST \u00b7 2026 \u00b7 CRAZYGL \u00b7 STUDIO \u00b7 "
+					},
+					{
+						"id": "ring2Text",
+						"label": "Ring 2 text",
+						"type": "text",
+						"default": "MOTION \u00b7 TYPE \u00b7 CODE \u00b7 CRAFT \u00b7 "
+					},
+					{
+						"id": "ring3Text",
+						"label": "Ring 3 text",
+						"type": "text",
+						"default": "STAY \u00b7 CURIOUS \u00b7 "
+					},
+					{
+						"id": "centerText",
+						"label": "Centre text",
+						"type": "text",
+						"default": "PRO"
+					}
+				]
+			},
+			{
+				"label": "Speeds",
+				"fields": [
+					{
+						"id": "ring1Speed",
+						"label": "Ring 1 speed (s/turn)",
+						"type": "slider",
+						"default": 28,
+						"min": 4,
+						"max": 80,
+						"step": 1,
+						"unit": "s"
+					},
+					{
+						"id": "ring2Speed",
+						"label": "Ring 2 speed (s/turn)",
+						"type": "slider",
+						"default": 18,
+						"min": 4,
+						"max": 80,
+						"step": 1,
+						"unit": "s"
+					},
+					{
+						"id": "ring3Speed",
+						"label": "Ring 3 speed (s/turn)",
+						"type": "slider",
+						"default": 12,
+						"min": 4,
+						"max": 80,
+						"step": 1,
+						"unit": "s"
+					},
+					{
+						"id": "ring2Reverse",
+						"label": "Reverse ring 2",
+						"type": "toggle",
+						"default": true
+					}
+				]
+			},
+			{
+				"label": "Colours",
+				"fields": [
+					{
+						"id": "ring1Color",
+						"label": "Ring 1 colour",
+						"type": "color",
+						"default": "#ffffff"
+					},
+					{
+						"id": "ring2Color",
+						"label": "Ring 2 colour",
+						"type": "color",
+						"default": "#9aa1ad"
+					},
+					{
+						"id": "ring3Color",
+						"label": "Ring 3 colour",
+						"type": "color",
+						"default": "#5b8def"
+					},
+					{
+						"id": "centerColor",
+						"label": "Centre colour",
+						"type": "color",
+						"default": "#ffffff"
+					},
+					{
+						"id": "headingFontFamily",
+						"label": "Font",
+						"type": "font",
+						"default": "Inter"
+					},
+					{
+						"id": "headingFontWeight",
+						"label": "Weight",
+						"type": "slider",
+						"default": 600,
+						"min": 100,
+						"max": 900,
+						"step": 100
+					}
+				]
+			},
+			{
+				"label": "Backdrop",
+				"fields": [
+					{
+						"id": "transparentBackground",
+						"label": "Transparent background",
+						"type": "toggle",
+						"default": false
+					},
+					{
+						"id": "bgColor",
+						"label": "Background",
+						"type": "color",
+						"default": "#0a0c14"
+					}
+				]
+			}
+		]
+	}
+}
